@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+<body>
+  <!-- Formulários
+    - Serve para caputra dados de entrada
+    - Input -> Entrada
+
+    Action -> define qual url será enviado os dados, vazio envia para mesmo url.
+    Method
+     - GET 
+     - POST
+  -->
+
+  <form action="">
+    <h1>Digite o seu endereço</h1>
+    <label for="">Rua:</label>
+    <input type="text" name="rua" autocomplete="street-address">
+    <br>
+    <label for="">Numero:</label>
+    <input type="number" name="numero">
+    <br>
+    <button type="submit">Enviar dados</button>
+    <button type="reset">Limpar campos</button>
+    <button type="button">Botão</button>
+  </form>
+</body>
+</html>
