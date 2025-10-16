@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo {
+  color: tomato;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#paragrafo {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.botao {
+  border: none;
+  margin-left: 10px;
+  padding: 8px;
+  font-size: 16px;
+  color: black;
+  background-color: #ebe709;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background-color: #b8b504;
+}
