@@ -1,0 +1,12 @@
+/* FORMAS DE DECLARAR CORES NO CSS 
+
+  - RGB: Red, Green e Blue
+  - Hexadecimal 
+
+*/
+
+
+h1 {
+  color: rgb(255, 0, 0); /* RGB */
+  color: #ff2244; /* Hexadecimal */
+}
